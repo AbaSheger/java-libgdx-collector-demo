@@ -1,11 +1,11 @@
 # Collector Demo
 
+A small Java/libGDX desktop game demonstrating a complete 2D gameplay loop: keyboard input, frame-based movement, viewport management, collision detection, score tracking, and rendering with libGDX primitives.
+
 ![Java](https://img.shields.io/badge/Java-17%2B-orange)
 ![libGDX](https://img.shields.io/badge/libGDX-2D%20Game-red)
 ![Gradle](https://img.shields.io/badge/Gradle-Wrapper-blue)
 ![Platform](https://img.shields.io/badge/Platform-Desktop-lightgrey)
-
-A small Java/libGDX desktop game demonstrating a complete 2D gameplay loop: keyboard input, frame-based movement, viewport management, collision detection, score tracking, and rendering with libGDX primitives.
 
 The player controls a blue square, collects a yellow pickup for points, and avoids bouncing enemies. Colliding with an enemy resets the score and player position.
 
