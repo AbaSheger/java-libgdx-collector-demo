@@ -1,0 +1,17 @@
+.gradle/
+.gradle-temp/
+build/
+out/
+*.class
+gradle-*-bin.zip
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db

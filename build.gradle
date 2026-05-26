@@ -1,0 +1,23 @@
+plugins {
+    id "base"
+}
+
+ext {
+    appName = "Collector Demo"
+    gdxVersion = "1.14.1"
+}
+
+allprojects {
+    group = "com.portfolio.collector"
+    version = "1.0.0"
+}
+
+subprojects {
+    apply plugin: "java"
+
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(17)
+        }
+    }
+}
